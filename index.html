@@ -17,8 +17,12 @@
 <body>
 	<!-- header design -->
 	<header class="app__header">
-		<a href="#" class="logo">Ogata.</a>
-		<i class="bx bx-menu" id="menu-icon"></i>
+		<a href="#" class="logo">Ogata.
+			 <span class="animated" style="--i:1;"></span>
+		</a>
+		<div class="bx bx-menu" id="menu-icon">
+			<span class="animated" style="--i:2;"></span>
+		</div>
 
 
 		<nav class="app__header-nav">
@@ -27,63 +31,81 @@
 			<a href="#education">Education</a>
 			<a href="#skills">skills</a>
 			<a href="#contact">contact</a>
+
+			<span class="active-nav"></span>
+			<span class="animated" style="--i:2;"></span>
 		</nav>
 	</header>
 
 	<main class="app__main">
 	<!-- home section design -->
-		<section class="home" id="home">
+		<section class="home show-animated" id="home">
 			<div class="home_content">
-				<h1>Hi, I'm <span>Ogata Angwenyi</span></h1>
+				<h1>Hi, I'm <span>Ogata Angwenyi</span>
+					<span class="animated" style="--i:2;"></span>
+				</h1>
 				<div class="text-animate">
 					<p>FrontEnd Developer</p>
+					<span class="animated" style="--i:3;"></span>
 				</div>
 				<p class="desc">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, dolores minus error facilis maxime cupiditate sapiente aspernatur dolore recusandae iure similique impedit autem illo fugit corrupti. Esse nostrum consequuntur.
+					desc
 				</p>
 
 				<div class="buttons-bx">
 					<a href="#" class="btn">Hire me</a>
 					<a href="#" class="btn">Let's talk</a>
+					<span class="animated" style="--i:5;"></span>
 				</div>
 			</div>
 			<div class="home-sci">
 				<a href="#"><i class="bx bxl-facebook"></i></a>
 				<a href="#"><i class="bx bxl-twitter"></i></a>
 				<a href="#"><i class="bx bxl-linkedin"></i></a>
-
+				<span class="animated" style="--i:6;"></span>
 			</div>
 			<div class="home-image-hover">
-
 			</div>
+			<span class="animated home-img" style="--i:7;"></span>
 		</section>
 		<!-- about section design -->
 		<section class="about" id="about">
-			<h2 class="heading">About <span>Me</span></h2>
+			<h2 class="heading">About <span>Me</span>
+				<span class="animated scroll" style="--i:1;"></span>
+			</h2>
 
 			<div class="about-img">
+				<span class="animated scroll" style="--i:2;"></span>
 				<img src="./images/about.jpg" alt="">
 				<spam class="circle-spin"></spam>
 			</div>
 
 			<div class="about-content">
-				<h3>FrontEnd Developer</h3>
+				<h3>FrontEnd Developer
+					<span class="animated scroll" style="--i:3;"></span>
+				</h3>
 				<p>
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora dolorem distinctio blanditiis. Eveniet, corporis cumque et similique beatae, minus aliquid ipsa magni distinctio facilis laboriosam dolorem. Autem odio vel facilis deleniti repellendus. Veritatis adipisci deleniti aliquid illo, earum temporibus! Distinctio alias et magnam placeat eos quisquam accusamus officiis accusantium neque.
+					<span class="animated scroll" style="--i:4;"></span>
 				</p>
 				<div class="buttons-bx btns">
 					<a href="#" class="btn">Read more</a>
+					<span class="animated scroll" style="--i:5;"></span>
 				</div>
 			</div>
 		</section>
 		<!-- education section design -->
 		<section class="education" id="education">
-			<h2 class="heading">My <span>Journey</span></h2>
+			<h2 class="heading">My <span>Journey</span>
+				<span class="animated scroll" style="--i:1;"></span>
+			</h2>
 
 			<div class="education-row">
 				<div class="education-column">
-					<h3 class="title">Education</h3>
-
+					<h3 class="title">Education
+					<span class="animated scroll" style="--i:2;"></span>
+					</h3>
 					<div class="education-box">
 						<div class="education-content">
 							<div class="content">
@@ -112,10 +134,13 @@
 								</p>
 							</div>
 						</div>
+						<span class="animated scroll" style="--i:20;"></span>
 					</div>
 				</div>
 				<div class="education-column">
-					<h3 class="title">Experience</h3>
+					<h3 class="title">Experience
+						<span class="animated scroll" style="--i:10;"></span>
+					</h3>
 
 					<div class="education-box">
 						<div class="education-content">
@@ -145,17 +170,21 @@
 								</p>
 							</div>
 						</div>
+						<span class="animated scroll" style="--i:5;"></span>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- skills section design -->
 		<section class="skills" id="skills">
-			<h2 class="heading">My <span>Skills</span></h2>
+			<h2 class="heading">My <span>Skills</span>
+				<span class="animated scroll" style="--i:1;"></span>
+			</h2>
 			<div class="skills-row">
 				<div class="skills-column">
-					<h3 class="title">Coding Skills</h3>
-
+					<h3 class="title">Coding Skills
+						<span class="animated scroll" style="--i:2;"></span>
+					</h3>
 					<div class="skills-box">
 						<div class="skills-content">
 							<div class="progress">
@@ -175,11 +204,13 @@
 								<div class="bar react"><span></span></div>
 							</div>
 						</div>
+						<span class="animated scroll" style="--i:3;"></span>
 					</div>
-
 				</div>
 				<div class="skills-column">
-					<h3 class="title">Professional Skills</h3>
+					<h3 class="title">Professional Skills
+						<span class="animated scroll" style="--i:5;"></span>
+					</h3>
 
 					<div class="skills-box">
 						<div class="skills-content">
@@ -200,6 +231,7 @@
 								<div class="bar seo"><span></span></div>
 							</div>
 						</div>
+						<span class="animated scroll" style="--i:6;"></span>
 					</div>
 
 				</div>
@@ -207,7 +239,9 @@
 		</section>
 		<!-- contact section design -->
 		<section class="contact" id="contact">
-			<h2 class="heading">Contact <span>Me!</span></h2>
+			<h2 class="heading">Contact <span>Me!</span>
+				<span class="animated scroll" style="--i:1;"></span>
+			</h2>
 			<form action="#">
 				<div class="input-box">
 					<div class="input-field">
@@ -218,6 +252,7 @@
 						<input type="email" placeholder="Email Address" required>
 						<span class="focus"></span>
 					</div>
+					<span class="animated scroll" style="--i:3;"></span>
 				</div>
 				<div class="input-box">
 					<div class="input-field">
@@ -228,13 +263,16 @@
 						<input type="y=text" placeholder="Email Subject" required>
 						<span class="focus"></span>
 					</div>
+					<span class="animated scroll" style="--i:5;"></span>
 				</div>
 				<div class="textarea-field">
 					<textarea name="message" id="message" cols="30" rows="10" required placeholder="Your message"></textarea>
 					<span class="focus"></span>
+					<span class="animated scroll" style="--i:7;"></span>
 				</div>
 				<div class="buttons-bx btns">
 					<button type="submit" class="btn">Submit</button>
+					<span class="animated scroll" style="--i:9;"></span>
 				</div>
 			</form>
 		</section>
@@ -243,11 +281,13 @@
 	<footer class="footer">
 		<div class="footer-text">
 			<p>Copyright &copy; 2024 by Agwenyi || All Rights Reserved</p>
+			<span class="animated scroll" style="--i:1;"></span>
 		</div>
 		<div class="footer-icons">
 			<a href="#">
 				<i class="bx bx-up-arrow-alt"></i>
 			</a>
+			<span class="animated scroll" style="--i:3;"></span>
 		</div>
 	</footer>
 
